@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: 0ch;
+}
+#container{
+    text-align: center;
+    width: 50%;
+    background-color: black;
+    color: white;
+    margin: 10% auto;
+    padding: 15px;
+}
+#container h1{
+    font-size: 30px;
+    margin: 20px 0px;
+}
+/* grouping selector */
+input, label{
+    display: block;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+}
+label{
+    font-size: 20px;
+}
+input{
+    padding: 8px;
+    margin: 10px auto;
+}
+p a{
+    text-decoration: none;
+    color: white;
+}
+input[ type="submit"]{
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+input[ type="submit"]:hover{
+    background-color: white;
+    color: black;
+    
+}
+/* sudo element delector */
+input:: :placeholder{
+    color: black;
+
+}
